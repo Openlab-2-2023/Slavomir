@@ -1,0 +1,30 @@
+    body {
+    background-image:url(pozadie.jpg);
+  }
+  
+  h1 {
+    
+    color: white;
+    text-align: center;
+    font-size: 400%
+  }
+  p  { 
+    
+    color:white;
+    text-align: center;
+    font-size: 200%;
+  } 
+  h2 {
+    color: white;
+  }
+  form {
+  padding: 20px;
+  border-radius: 3px;
+  border-width: 2px;
+  border-color: white;
+  border-style: double;
+}
+  .tabulka {
+  height: 50%;
+  width: 50%;
+}
