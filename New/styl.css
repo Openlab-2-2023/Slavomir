@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: system-ui, sans-serif;
-    background-image: url("background.jpg");
+    
 }
 h1 {
     text-align: center;
@@ -35,4 +35,10 @@ footer {
 .crew {
     text-align: center;
     font-size: 800%;
-
+    color: black;
+}
+.row {
+        text-align: center;
+        font-size: 400%;
+        color: black;
+    }
