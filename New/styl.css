@@ -35,7 +35,7 @@ footer {
 }
 .crew {
     text-align: center;
-    font-size: 800%;
+    font-size: 200%;
     color: black;
 }
 .row {
@@ -43,3 +43,33 @@ footer {
         font-size: 400%;
         color: black;
     }
+.colum {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+* {
+    box-sizing: border-box;
+}
+.rows {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+
+tr:hover {background-color: #D6EEEE;}
