@@ -37,22 +37,48 @@
         
 </body>
 
-<footer>© 2023 Názov ‖ Zakazník náš pán.</footer>
+<footer>
+    
+    
+    <div class="hodina">
+        <table class=>
+        <tr>
+            <th>Pondelok</th>
+            <th>Utorok</th>
+            <th>Streda</th>
+            <th>Štvrtok</th>
+            <th>Piatok</th>
+            <th>Sobota</th>
+            <th>Nedeľa</th>
+        </tr>
+        <tr>
+            <th>Od 10:00 Do 22:00</th>
+            <th>Od 10:00 Do 22:00</th>
+            <th>Od 10:00 Do 22:00</th>
+            <th>Od 10:00 Do 22:00</th>
+            <th>Od 10:00 Do 04:30</th>
+            <th>Od 10:00 Do 04:30</th>
+            <th>Od 10:00 Do 22:00</th>
+        </tr>
+        </table>
+    </div>
+<div class="title">© 2023 Názov ‖ Zakazník náš pán.</div>
+    </footer>
 <script>
     // Automatic Slideshow - change image every 5 seconds
     var myIndex = 0;
     carousel();
     
     function carousel() {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      for (i = 0; i < x.length; i++) {
-         x[i].style.display = "none";
-      }
-      myIndex++;
-      if (myIndex > x.length) {myIndex = 1}
-      x[myIndex-1].style.display = "block";
-      setTimeout(carousel, 5000);
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 5000);
     }
     </script>
 
