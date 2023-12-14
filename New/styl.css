@@ -15,8 +15,9 @@ p {
 footer {
     text-align: center;
     padding: 50px 20px;
-    border: 2px solid black;
+    border: 2px solid white;
     font-size: 16px; 
+    bottom: 0%;
 }
 .navbar {
     border-style: solid;
@@ -42,4 +43,3 @@ footer {
         font-size: 400%;
         color: black;
     }
-
