@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: system-ui, sans-serif;
+    height: 100%;
     
 }
 h1 {
@@ -11,6 +12,7 @@ h1 {
 
 p {
     text-align: center;
+    
 }
 footer {
     text-align: center;
@@ -35,7 +37,7 @@ footer {
 }
 .crew {
     text-align: center;
-    font-size: 200%;
+    font-size: 300%;
     color: black;
 }
 .row {
@@ -60,16 +62,42 @@ footer {
 .title {
     text-align: center;
 }
-table {
-    border-collapse: collapse;
+.table {
+    border: solid black;
     width: 50%;
-    
+    text-align: center;
 }
 
 th, td {
     padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #DDD;
+    text-align: center
+    border-bottom: 1px solid black;
 }
 
 tr:hover {background-color: #D6EEEE;}
+
+.hodina {
+    padding-top: 6%;
+}
+
+.btn-group  {
+    border: 1px solid black; 
+    color: black;
+    padding: 5% 
+}
+
+.bg-image {
+    
+    /* Add the blur effect */
+    
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
