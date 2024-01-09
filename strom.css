@@ -1,0 +1,137 @@
+.container {
+    
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin-top: 30px;
+    margin: auto;
+    background: #0b1a5e;
+    border-radius: 120px;
+    z-index: 1;
+    
+}
+.triangle3 {
+    position: absolute;
+    width: 66%;
+    height: 36%;
+    bottom: 20%;
+    right: 16%;
+    background: #024e32;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.triangle2 {
+    position: absolute;
+    width: 53%;
+    height: 33%;
+    bottom: 35%;
+    
+    right: 22%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #045f3e;
+    z-index: 2;
+}
+
+.triangle1 {
+    position: absolute;
+    width: 42%;
+    height: 25%;
+    bottom: 50%;
+    left: 30%;
+    background: #036944;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    z-index: 3;
+}
+.kmen {
+    position: absolute;
+    width: 10%;
+    height: 16%;
+    background: #50321a;
+    z-index: 1;
+    bottom: 4%;
+    left: 45%;
+}
+.hviezda {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    background: #ddb110;
+    clip-path: polygon(
+        50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%,
+        50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%
+    );
+    left: 41%;
+    top: 11%;
+    z-index: 4;
+}
+.banka {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    background: #db3907;
+    box-shadow: 0 0 3px #000000;
+    z-index: 4;
+    top: 45%;
+    left: 55%;
+}
+.banka1 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    background: #7505b6;
+    box-shadow: 0 0 3px #000000;
+    z-index: 4;
+    top: 65%;
+    left: 35%;
+}
+
+.banka2 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    background: #db07bf;
+    box-shadow: 0 0 3px #000000;
+    z-index: 4;
+    top: 30%;
+    left: 45%;
+}
+
+.banka3 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    background: #db0707;
+    box-shadow: 0 0 3px #000000;
+    z-index: 4;
+    top: 48%;
+    left: 35%;
+}
+.banka4 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    background: #db0707;
+    box-shadow: 0 0 3px #000000;
+    z-index: 4;
+    top: 65%;
+    left: 60%;
+}
+.ziara {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 11%;
+    right: 39%;
+    border-radius: 50%;
+    background: white;
+    filter: opacity(60%);
+}
+
+
+
+
